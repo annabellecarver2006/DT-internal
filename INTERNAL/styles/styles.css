@@ -1,0 +1,64 @@
+/*css*/
+.gridbox{
+	width: 900px auto;
+	display:grid;
+	grid-template-columns: auto;
+	margin: 10px auto;
+}
+.grid-item{
+	border: 2px solid black;
+	margin: 5px;
+	padding: 30px;
+	
+}
+.grid-item-1{
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+.grid-item-2{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	display: grid;
+	grid-template-columns: auto;
+}
+.grid-item-3{
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+.grid-item-4{
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+.grid-item-5{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.grid-item-6{
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+
+.grid-item-z{
+	border: 2px solid red;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+.grid-item-a{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.grid-item-b{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.grid-item-c{
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.grid-item-d{
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
