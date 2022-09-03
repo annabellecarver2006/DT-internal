@@ -1,26 +1,41 @@
 /*css*/
 /*!!NOTE: make website content and boxes bigger*/
+/*to do:
+-test on mobile*
+- change sample text
+-make box around the 'get started'
+-link get started
+-add backup fonts
+*/
+
 @font-face {
    font-family: vampire_wars;
    src: url('../fonts/vampire_wars.otf');
+   src: url ('../images/logo.png/');
+}
+body{
+	background-color: black;
+}
+
+h2{
+	font-family: magneto;
 }
 .gridbox{
-	width: 900px auto;
+	width: 100%;
 	display:grid;
 	grid-template-columns: auto;
 	margin: 10px auto;
-	box-sizing: border-box
-}
-.grid-item{
 	
 }
+.grid-item{
+	resize: none;
+}
 .grid-item-1{
-	grid-column-start: 1;
-	grid-column-end: 6;
-	border: 2px solid black;
-	margin-left: 400px;
-	margin-right: 400px;
-	padding: 30px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	border: 2px solid ;
+	margin: auto;
+	
 	
 }
 .grid-item-2{
@@ -35,7 +50,8 @@
 	
 }
 	.grid-item-z{
-		border: 2px solid red;
+		border: 2px solid #f40076;
+		background-color: #f40076;
 		margin-left: 50px;
 		margin-right: 50px;
 		padding: 5px;
@@ -44,6 +60,8 @@
 		font-size: 30px;
 		font-family: magneto, sans-serif;
 		text-align: center;
+		box-shadow: ;
+		
 	}
 
 	.grid-item-a{
@@ -66,10 +84,11 @@
 .grid-item-3{
 	grid-column-start: 1;
 	grid-column-end: 6;
-	
-	border: 2px solid black;
+	border: 2px solid white;
 	margin: 5px;
-	padding: 30px;
+	padding: 0px;
+	color: white;
+	font-family: courier new;
 	
 }
 .grid-item-4{
@@ -81,6 +100,7 @@
 	grid-template-columns: auto;
 	box-sizing: border-box
 	
+	
 }
 	.grid-item-z2{
 		grid-column-start: 1;
@@ -88,8 +108,10 @@
 		display: grid;
 		padding: 20px;
 		grid-template-columns: auto;
-		border: 2px solid black;
+		border: 2px solid white;
 		margin: 5px;
+		color: white;
+	font-family: courier new;
 	}
 
 	.grid-item-a2{
@@ -108,20 +130,118 @@
 .grid-item-5{
 	grid-column-start: 1;
 	grid-column-end: 3;
-	border: 2px solid black;
+	border: 2px solid white;
 	margin: 5px;
 	padding: 30px;
+	color: white;
+	font-family: courier new;
 	
 }
 
 .grid-item-6{
 	grid-column-start: 3;
 	grid-column-end: 6;
-	border: 2px solid black;
+	border: 2px solid white;
 	margin: 5px;
 	padding: 30px;
+	color: white;
+	font-family: courier new;
 	
 }
 h1{
+
+}
+
+.logo{
+	 max-width: 100%;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+}
+
+.banner-1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 	text-align: center;
+	color: white;
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.custom-designs-text{
+	position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 110px;
+  font-family: vampire_wars;
+}
+
+.slogan-text{
+	position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: magneto;
+  font-size: 50px;
+}
+
+.get-started{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 35px;
+	font-family: magneto;
+	
+}
+
+.new{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 70px;
+	font-family: vampire_wars;
+}
+
+.contacts{
+	padding: 20px;
+	background-color: #f40076;
+}
+.img-banner1{
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.banner-about{
+	width: 100%;
+	height: auto;
 }
