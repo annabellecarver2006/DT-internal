@@ -1,0 +1,127 @@
+/*css*/
+/*!!NOTE: make website content and boxes bigger*/
+@font-face {
+   font-family: vampire_wars;
+   src: url('../fonts/vampire_wars.otf');
+}
+.gridbox{
+	width: 900px auto;
+	display:grid;
+	grid-template-columns: auto;
+	margin: 10px auto;
+	box-sizing: border-box
+}
+.grid-item{
+	
+}
+.grid-item-1{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	border: 2px solid black;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding: 30px;
+	
+}
+.grid-item-2{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	display: grid;
+	padding: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	grid-template-columns: auto;
+	box-sizing: border-box
+	
+}
+	.grid-item-z{
+		border: 2px solid red;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 5px;
+		padding-bottom: 10px;
+		text-align: center;
+		font-size: 30px;
+		font-family: magneto, sans-serif;
+		text-align: center;
+	}
+
+	.grid-item-a{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-column-end: 2;
+	}
+	.grid-item-b{
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+	.grid-item-c{
+		grid-column-start: 3;
+		grid-column-end: 4;
+	}
+	.grid-item-d{
+		grid-column-start: 4;
+		grid-column-end: 5;
+	}
+.grid-item-3{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	
+	border: 2px solid black;
+	margin: 5px;
+	padding: 30px;
+	
+}
+.grid-item-4{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	display: grid;
+	grid-template-columns: auto;
+	box-sizing: border-box
+	
+}
+	.grid-item-z2{
+		grid-column-start: 1;
+		grid-column-end: 6;
+		display: grid;
+		padding: 20px;
+		grid-template-columns: auto;
+		border: 2px solid black;
+		margin: 5px;
+	}
+
+	.grid-item-a2{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	.grid-item-b2{
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+	.grid-item-c2{
+		grid-column-start: 3;
+		grid-column-end: 4;
+	}
+
+.grid-item-5{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border: 2px solid black;
+	margin: 5px;
+	padding: 30px;
+	
+}
+
+.grid-item-6{
+	grid-column-start: 3;
+	grid-column-end: 6;
+	border: 2px solid black;
+	margin: 5px;
+	padding: 30px;
+	
+}
+h1{
+	text-align: center;
+}
