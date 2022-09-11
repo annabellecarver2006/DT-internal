@@ -1,10 +1,6 @@
 /*css*/
 /*!!NOTE: make website content and boxes bigger*/
 /*to do:
--test on mobile*
-- change sample text
--make box around the 'get started'
--link get started
 -add backup fonts
 -make the nav resize
 -potentially have a fixed menu
@@ -26,7 +22,7 @@ h2{
 }
 
 h1{
-	font-family: vampire_wars;
+	font-family: vampire_wars, sans serif;
 	
 	
 	
@@ -282,10 +278,6 @@ a:active {
   .gridbox { grid-template-columns: repeat(3, 1fr); }
 }
 
-.product{
-	float: left;
-	outline: 2px solid red;
-}
 
 .banner-2{
 	padding: 20px;
@@ -390,10 +382,33 @@ a:active {
 	text-align: center;
 	left: 35%;
 	font-size: 1.6vw;
+	background-color: #f40076;
 }
 
 .click-start{
 	text-align: center;
 	left: 35%;
 	font-size: 1.6vw;
+	background-color: #f40076;
+}
+
+
+.arrow{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cdesigns-images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.designs-promo{
+	text-align: center;
+	font-size: 2vw;
+}
+
+.collections{
+	text-align: center;
+	background-color: #f40076;
 }
